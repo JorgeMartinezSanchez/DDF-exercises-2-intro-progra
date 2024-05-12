@@ -1,9 +1,159 @@
-<mxfile host="app.diagrams.net" modified="2024-05-12T15:32:11.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" version="24.3.1" etag="h3d3Sl_od2-MGrVvWD-d" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-12T17:00:17.584Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="4SP9TWkvZwkhuVwVnWmU" version="24.3.1" type="github">
   <diagram name="Página-1" id="544QwqThBYzNJzilZaaY">
-    <mxGraphModel>
+    <mxGraphModel dx="977" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="F19cmIg-psnfU-JiqRUe-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-1" target="F19cmIg-psnfU-JiqRUe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-1" target="F19cmIg-psnfU-JiqRUe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-1" value="Inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="10" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-2" target="F19cmIg-psnfU-JiqRUe-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="314" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-2" value="n" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="264" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-4" target="F19cmIg-psnfU-JiqRUe-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="514" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-4" value="k" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="464" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-7" target="F19cmIg-psnfU-JiqRUe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-7" value="c_day = 0" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="364" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-10" target="F19cmIg-psnfU-JiqRUe-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-10" value="i=0; i++" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="310" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-12" target="F19cmIg-psnfU-JiqRUe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-12" value="&quot;&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="386" y="450" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-14" target="F19cmIg-psnfU-JiqRUe-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-14" value="i&amp;lt;n" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="386" y="525" width="56" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-10" target="F19cmIg-psnfU-JiqRUe-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="360" />
+              <mxPoint x="340" y="543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-10" target="F19cmIg-psnfU-JiqRUe-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="360" />
+              <mxPoint x="490" y="543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-19" target="F19cmIg-psnfU-JiqRUe-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-19" target="F19cmIg-psnfU-JiqRUe-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="660" />
+              <mxPoint x="200" y="1199" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-19" target="F19cmIg-psnfU-JiqRUe-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="660" />
+              <mxPoint x="630" y="1199" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-19" value="c_day&amp;lt;=k" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="610" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-21" target="F19cmIg-psnfU-JiqRUe-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-21" value="&lt;div&gt;si c_day&amp;lt;10?&lt;/div&gt;&lt;div&gt;True: &quot; &quot;&lt;/div&gt;&lt;div&gt;False: &quot;&quot;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="357" y="750" width="114" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-23" target="F19cmIg-psnfU-JiqRUe-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-23" value="c_day" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="860" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-25" value="&lt;div&gt;(n+c_day-1)%7&lt;/div&gt;&lt;div&gt;or&lt;/div&gt;&lt;div&gt;c_day=0&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="334" y="960" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-27" target="F19cmIg-psnfU-JiqRUe-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="284" y="1199" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-27" value="endl;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="234" y="1090" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-25" target="F19cmIg-psnfU-JiqRUe-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="284" y="1025" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-29" target="F19cmIg-psnfU-JiqRUe-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="544" y="1199" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-29" value="&quot; &quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="494" y="1090" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-25" target="F19cmIg-psnfU-JiqRUe-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="544" y="1025" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F19cmIg-psnfU-JiqRUe-31" target="F19cmIg-psnfU-JiqRUe-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-31" value="c_day++" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="364" y="1169" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F19cmIg-psnfU-JiqRUe-36" value="Fin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="1280" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
