@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-05-12T00:18:20.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" version="24.3.1" etag="qDm-gD_zKu6e5ca2srzq" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-12T01:42:12.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="x9Pqqaf_-6lTaDZoD5Lq" version="24.3.1" type="github">
   <diagram name="Página-1" id="JwY_gxhWGbGkb1jl0CRd">
-    <mxGraphModel>
+    <mxGraphModel dx="799" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7dm4XTz5hawT04RvJbRZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7dm4XTz5hawT04RvJbRZ-1" target="7dm4XTz5hawT04RvJbRZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="120" />
+              <mxPoint x="414" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7dm4XTz5hawT04RvJbRZ-1" value="Inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="10" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dm4XTz5hawT04RvJbRZ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dm4XTz5hawT04RvJbRZ-5" target="7dm4XTz5hawT04RvJbRZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dm4XTz5hawT04RvJbRZ-5" value="s1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="364" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dm4XTz5hawT04RvJbRZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dm4XTz5hawT04RvJbRZ-6" target="7dm4XTz5hawT04RvJbRZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dm4XTz5hawT04RvJbRZ-6" value="i=0; i&amp;lt;s1.length; ++i" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="349" y="290" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7dm4XTz5hawT04RvJbRZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dm4XTz5hawT04RvJbRZ-9" target="7dm4XTz5hawT04RvJbRZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dm4XTz5hawT04RvJbRZ-9" value="s1[i] = &#39; &#39;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="349" y="440" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7dm4XTz5hawT04RvJbRZ-11" value="s1.length" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="590" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
